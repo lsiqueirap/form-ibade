@@ -1,0 +1,50 @@
+body {
+	font-family: 'Poppins';
+}
+.pointer {
+	cursor: pointer;
+}
+.min-height {
+	min-height: calc(100vh - 116px);
+}
+.input-error {
+    border-left: 4px solid #f5202f !important;
+}
+.title-border {
+	border-bottom: 2px solid #0b6dc7;
+}
+.uib-datepicker .glyphicon {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.uib-datepicker  .glyphicon.glyphicon-chevron-left:before {
+	content: "\f060";
+}
+.uib-datepicker  .glyphicon.glyphicon-chevron-right:before {
+    content: "\f061";
+}
+.card {
+	border: 0;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00a7ff;
+    border-color: #00a7ff;
+    border-radius: 0;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00a7ff;
+    border-color: #00a7ff;
+    border-radius: 0;
+}
+
+.dropzone {
+    border: 0 !important;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+}
